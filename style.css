@@ -50,9 +50,9 @@
 }
 .content{
     width: 100%;
-    position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    position: absolute;
     text-align: center;
     color: #fff;
 }
@@ -79,7 +79,6 @@
     position: relative;
     overflow: hidden;
 }
-
 span{
     background: green;
     height: 100;
@@ -96,4 +95,37 @@ button:hover span{
 }
 button:hover{
     border: none;
+}
+.secondnav{
+    width: 85%;
+    height: 510px;
+    color: black;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end
+}
+.secondnav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.secondnav ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase ;
+}
+.secondnav ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: green;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.secondnav ul li:hover::after{
+    width: 100%;
 }
