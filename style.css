@@ -5,14 +5,13 @@
 }
 .banner{
     width: 100%;
-    height: 100vh;
+    min-height: 100%;
     background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://cdn.pixabay.com/photo/2014/06/06/15/08/olympic-stadium-363477__480.jpg);
     background-size: cover;
     background-position: center;
 }
 .kontakt-banner {
      width: 100%;
-     height: 100vh;
      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://media.istockphoto.com/id/479842074/sv/foto/empty-road-at-building-exterior.jpg?b=1&s=170667a&w=0&k=20&c=NCJ0OfQnpaZNwt1RKRDCGI_RPyLuuVJZopDicL3TqT0=);
      background-size: cover;
      background-position: center; 
@@ -46,7 +45,7 @@
     content: '';
     height: 3px;
     width: 0;
-    background: green;
+    background: rgba(0, 128, 0, 0.379);;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -56,10 +55,10 @@
     width: 100%;
 }
 .content{
+    margin-top: 150px;
     width: 100%;
     top: 50%;
     transform: translateY(-50%);
-    position: absolute;
     text-align: center;
     color: #fff;
 }
@@ -91,7 +90,7 @@
     color: #fff;
 }
 span{
-    background: green;
+    background: rgba(0, 128, 0, 0.379);;
     height: 100;
     width: 0;
     border-radius: 25px;
@@ -109,9 +108,7 @@ button:hover{
 }
 .secondnav{
     width: 85%;
-    height: 455px;
-    color: black;
-    margin: auto;
+    height: 75px;
     display: flex;
     justify-content: center;
     align-items: flex-end
@@ -124,14 +121,14 @@ button:hover{
 }
 .secondnav ul li a{
     text-decoration: none;
-    color: black;
+    color: #fff;
     text-transform: uppercase ;
 }
 .secondnav ul li::after{
     content: '';
     height: 3px;
     width: 0;
-    background: green;
+    background: rgba(0, 128, 0, 0.379);;
     position: absolute;
     left: 0;
     bottom: -10px;
@@ -140,3 +137,66 @@ button:hover{
 .secondnav ul li:hover::after{
     width: 100%;
 }
+.cards{
+    margin: 100px;
+    color: #fff;
+    display: flex;
+}
+.syfte{
+    color: #fff;
+    width: 100%;  
+    top: 100%;
+    text-align: center;
+}
+#kvalite{
+    width: 100px;
+    height: 45px;
+    background-color: rgba(0, 128, 0, 0.379);
+    border: none;
+    margin-bottom: 200px;
+}
+.produkt{
+    width: 100%;
+    top: 50%;
+    text-align: center;
+    color: #fff;
+}
+.kontakt{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+}
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #fff;
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  input[type=submit] {
+    background-color: #fff;
+   color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: rgba(255, 255, 255, 0.459);
+  }
+  .container {
+    border-radius: 5px;
+    background-color: rgba(0, 128, 0, 0.379);
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  #ämne{
+    color: grey;
+  }
+
+  #ämne option {
+    color:black;
+  }

@@ -24,7 +24,34 @@
             </nav>
         </header>
         <main class="kontakt">
-                
+            <h1>Kontakt</h1>
+            <p>Telefonnummer: +46 75 523 90 88</p>
+            <p>Adress: Fotbollsgatan 23, 752 34, Stockholm</p>
+            <p>Vi som är anställda är måna om att våra användare ska bli nöjda och få en bra match upplevelse därför vid frågor och strul, kontakta oss.</p>
+            <div class="container">
+                <form action="action_page.php">
+
+                  <label for="fnamn">För och Efternamn</label>
+                  <input type="text" id="fnamn" name="för och Efternamn" placeholder="Namn">
+
+                  <label for="email">Email</label>
+                  <input type="text" id="email" name="Email" placeholder="Email">
+
+                  <label for="ämne">Ämne</label>
+                  <select id="ämne" name="ämne">
+                    <option value="välj" disabled selected hidden>Välj:</option>
+                    <option value="Teknisk strul">Teknisk strul</option>
+                    <option value="Match frågor">Match frågor</option>
+                    <option value="Övrigt">Övrigt</option>
+                  </select>
+
+                  <label for="beskrivning">Förklara ditt problem eller fråga</label>
+                  <textarea id="beskrivning" name="beskrivning" placeholder="Skriv något.." style="height:200px"></textarea>
+
+                  <input type="submit" value="Submit">
+
+                </form>
+              </div>   
         </main>
         <footer class="secondnav">
             <ul>
