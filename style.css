@@ -241,3 +241,18 @@ input[type=text], select, textarea {
   .stars-container {
     margin-bottom: 5px;
   }
+.container p{
+    color: #fff;
+}
+#review-form h2{
+    color: #fff;
+}
+.control-label{
+    color: #fff;
+}
+.form-group{
+    color: #fff;
+}
+.comment{
+    color: #fff;
+}
